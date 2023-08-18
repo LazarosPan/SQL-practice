@@ -31,10 +31,10 @@ SET SaleDateConverted = CONVERT(Date,SaleDate)
 
 -- Populate Property Address data
 
-Select *
-From Project_Nashville.dbo.NashvilleHousing
---Where PropertyAddress is null
-order by ParcelID
+SELECT *
+FROM Project_Nashville.dbo.NashvilleHousing
+--WHERE PropertyAddress is null
+ORDER BY ParcelID
 
 
 
@@ -171,7 +171,7 @@ SELECT *,
 					) row_num
 
 FROM Project_Nashville.dbo.NashvilleHousing
---order by ParcelID
+--ORDER BY ParcelID
 )
 DELETE
 FROM RowNumCTE
@@ -193,7 +193,7 @@ SELECT *,
 					) row_num
 
 FROM Project_Nashville.dbo.NashvilleHousing
---order by ParcelID
+--ORDER BY ParcelID
 )
 SELECT *
 FROM RowNumCTE
