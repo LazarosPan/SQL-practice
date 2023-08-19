@@ -20,4 +20,4 @@ Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating View
 
 * Queries:
   
-  1. Standardize Date Format, 2. Populate Property Address data, 3. Breaking out Address into Individual Columns (Address, City, State), 4. Split the OwnerAddress, 5. Change Y and N to Yes and No in "Sold as Vacant" field, 6. Remove Duplicates, 7. Delete Unused Columns
+1. Standardize Date Format, 2. Populate Property Address data, 3. Breaking out Address into Individual Columns (Address, City, State), 4. Split the OwnerAddress, 5. Change Y and N to Yes and No in "Sold as Vacant" field, 6. Remove Duplicates, 7. Delete Unused Columns
